@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps xmlns:android="http://schemas.android.com/apk/res/android">
+    <map name="bodymap">
+        <!--<area
+            name="Head"
+            coords="864,135,871,115,891,85,911,49,957,29,983,23,1013,16,1074,29,1092,41,1116,65,1141,79,1155,122,1155,169,1099,117,1069,104,1053,90,995,88,974,97,954,90,932,104,921,124,893,151,873,162"
+            id="@+id/area_head"
+            shape="poly" />-->
+        <area id="@+id/head" title="Head" name="Head" coords="449,2,563,63" shape="rect" />
+        <area id="@+id/chest" title="Chest" name="Chest" coords="353,328,671,505" shape="rect" />
+
+        <!--
+        <area name="torso" coords="1020,1319,284" shape="circle"
+            id="@+id/area_torso"/>-->
+    </map>
+</maps>

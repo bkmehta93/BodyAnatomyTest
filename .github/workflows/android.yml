@@ -40,6 +40,10 @@ jobs:
        uses: actions/download-artifact@v1
        with:
          name: apk
+     - name: Checkout
+       uses: actions/checkout@v2.4.0
+       with:
+        fetch-depth: 0  
      - name: Extract version from tag
        uses: damienaicheh/extract-version-from-tag-action@v1.0.0 
      - name: Create Release

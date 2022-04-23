@@ -43,8 +43,6 @@ jobs:
        uses: actions/create-release@v1
        env:
          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-       with:
-         tag_name: ${{ github.run_number }}
      - name: Upload Release APK
        id: upload_release_asset
        uses: actions/upload-release-asset@v1.0.1
